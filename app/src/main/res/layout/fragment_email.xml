@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cl.riaraneda.aboutme.EmailFragment">
+
+    <Button
+        android:id="@+id/contacBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Escribirme"
+        android:textColor="@android:color/black"
+        android:theme="@style/AccentButton" />
+
+    <EditText
+        android:id="@+id/msgEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mensaje"
+        android:padding="8dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/sendBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ENVIAR"
+        android:textColor="@android:color/black"
+        android:theme="@style/AccentButton"
+        android:visibility="gone"/>
+
+</LinearLayout>
